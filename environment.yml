@@ -2,6 +2,7 @@ name: tortoise-tts
 channels:
   - pytorch
   - nvidia
+  - conda-forge
   - defaults
 dependencies:
   - python=3.10
@@ -9,3 +10,4 @@ dependencies:
   - torchvision
   - torchaudio
   - pytorch-cuda=11.6
+  - pysoundfile
