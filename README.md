@@ -1,3 +1,13 @@
+# Windows Setup
+- Install Anaconda and Cuda
+- Open Anaconda Powershell Prompt
+- ```cd "tortoise-tts path"```
+- ```conda env create --name tortoise-tts --file=environment.yml```
+- ```conda activate tortoise-tts```
+- ```conda install -c conda-forge pysoundfile```
+- ```python setup.py install```
+
+
 # TorToiSe
 
 Tortoise is a text-to-speech program built with the following priorities:
