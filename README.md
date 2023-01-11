@@ -1,5 +1,5 @@
 # Windows Setup
-- Install Anaconda and Cuda
+- Install [Anaconda](https://docs.anaconda.com/anaconda/install/windows/) and [Cuda](https://developer.nvidia.com/cuda-zone)
 - Open Anaconda Powershell Prompt
 - ```cd "tortoise-tts path"```
 - ```conda env create --name tortoise-tts --file=environment.yml```
